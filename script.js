@@ -20,4 +20,10 @@ while((palpite != numero)&&(tentativas <5)){
 
 if(numero == palpite){
     let palavratentativa = tentativas==1 ? "tentativa" : "tentativas"
+
+    window.alert("parabens ${nome}! o numero era ${numero}, e você acertou com $(tentativas) $(palavratentativa)!!");
+
+} else{
+    window.alert("você esgotou suas tentativas e não acertou, o numero era ${numero}! -");
 }
+
